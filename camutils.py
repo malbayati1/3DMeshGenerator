@@ -1,5 +1,6 @@
 import numpy as np
 import scipy.optimize
+import matplotlib.pyplot as plt
 
 def makerotation(rx,ry,rz):
     """
@@ -299,6 +300,8 @@ def reconstruct(imprefixL,imprefixR,threshold,camL,camR):
     pts3 : 2D numpy.array (dtype=float)
 
     """
+    
+    
 
     CLh,maskLh = decode(imprefixL,0,threshold)
     CLv,maskLv = decode(imprefixL,20,threshold)

@@ -18,7 +18,7 @@ import glob
 import matplotlib.pyplot as plt
 
 # file names, modify as necessary
-calibimgfiles = '/home/fowlkes/class/cs117/a3/calib1/*.jpg'
+calibimgfiles = './calib_jpg_u/*.jpg'
 resultfile = 'calibration.pickle'
 
 # checkerboard coordinates in 3D
